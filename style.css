@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    background: hsl(185, 75%, 39%);
+}
+
+body {
+    background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-x: -20rem, 10rem;
+    background-position-y: -10rem, 20rem;
+}
+
